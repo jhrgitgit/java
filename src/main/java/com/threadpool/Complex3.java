@@ -54,7 +54,7 @@ public class Complex3 {
         @Override
         public Integer call() throws Exception {
             System.out.printf("The task [%d] will be executed.\n", value);
-            TimeUnit.SECONDS.sleep((int) value * 5 + 10);
+            TimeUnit.SECONDS.sleep( 5 + 10);
             System.out.printf("The task [%d] will be done.\n", value);
             success = true;
             return value;
